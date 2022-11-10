@@ -23,6 +23,17 @@ public class MonthlyExpenses {
     public float getExpenses(){
         return expenses;
     }
+    public void setIncome(float income){
+        this.income=income;
+    }
+    public void setExpenses(float expenses){
+        this.expenses=expenses;
+    }
+
+    public void setMonth(String month) {
+        this.month = month;
+    }
+
     public float getIncome(){
         return income;
     }

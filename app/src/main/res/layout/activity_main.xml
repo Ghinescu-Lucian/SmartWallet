@@ -8,6 +8,13 @@
     android:orientation="vertical"
     >
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        />
+
     <TextView
         android:id="@+id/tStatus"
         android:layout_width="wrap_content"
@@ -54,29 +61,6 @@
     </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:weightSum="1"
-        android:layout_margin="20dp"
-        >
-
-        <EditText
-            android:id="@+id/eSearch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.6"
-            android:hint="January"/>
-
-        <Button
-            android:id="@+id/bSearch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.4"
-            android:onClick="clicked"
-            android:text="Search"/>
-    </LinearLayout>
     <Button
         android:id="@+id/bUpdate"
         android:layout_width="match_parent"
@@ -86,6 +70,13 @@
 
         android:onClick="clicked"
         android:text="Update" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:weightSum="1" />
 
 
 </LinearLayout>
